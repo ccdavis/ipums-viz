@@ -142,10 +142,10 @@
 		<text><tspan font-family="Arial" >Datasets by Variables and Records</tspan></text>
 	</g>
 </g>
-	<g id="gnuplot_plot_1" ><title>'data_sizes_live_meps.csv' every::1 u ($3/1000000):2</title>
+	<g id="gnuplot_plot_1" ><title>'../data/data_sizes_live_meps.csv' every::1 u ($3/1000000):2</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(507.9,76.6)" stroke="none" fill="black" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text>'data_sizes_live_meps.csv' every::1 u ($3/1000000):2</text>
+		<text>'../data/data_sizes_live_meps.csv' every::1 u ($3/1000000):2</text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
