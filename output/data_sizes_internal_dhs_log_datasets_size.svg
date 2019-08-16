@@ -159,12 +159,12 @@
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="3.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
-	<g id="gnuplot_plot_1" ><title>'&lt; sort -n -k 4 -t , ../data/data_sizes_internal_dhs.csv' every::1 u 4</title>
+	<g id="gnuplot_plot_1" ><title>Datasets</title>
 <g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(507.9,76.6)" stroke="none" fill="rgb(255,255,0)" font-family="Arial" font-size="12.00"  text-anchor="end">
-		<text>'&lt; sort -n -k 4 -t , ../data/data_sizes_internal_dhs.csv' every::1 u 4</text>
+		<text><tspan font-family="Arial" >Datasets</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">

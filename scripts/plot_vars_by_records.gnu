@@ -32,18 +32,18 @@ set ylabel 'Variables'
 set xlabel 'Records (millions)'
 set term png
 set out '../output/OUTPUTFILE.png'
-plot '../data/INPUTFILE.csv' every::1 u ($3/1000000):2 with points pt 7
+plot '../data/INPUTFILE.csv' every::1 u ($3/1000000):2 with points pt 7 t 'Variables X Records'
 set term svg
 set out '../output/OUTPUTFILE.svg'
-plot '../data/INPUTFILE.csv' every::1 u ($3/1000000):2 with points pt 7
+plot '../data/INPUTFILE.csv' every::1 u ($3/1000000):2 with points pt 7 t 'Variables X Records'
 
 set title 'Variables by Log of Number of Records' tc rgb "#FFFFFF"
 set logscale x
 set xlabel 'Records (log)'
 set term png
 set out '../output/OUTPUTFILE_log_records.png'
-plot '../data/INPUTFILE.csv' every::1 u 3:2 with points pt 7
+plot '../data/INPUTFILE.csv' every::1 u 3:2 with points pt 7 t 'Variables X log(Records)'
 set term svg
 set out '../output/OUTPUTFILE_log_records.svg'
-plot '../data/INPUTFILE.csv' every::1 u 3:2 with points pt 7
+plot '../data/INPUTFILE.csv' every::1 u 3:2 with points pt 7 t 'Variables X log(Records)'
 

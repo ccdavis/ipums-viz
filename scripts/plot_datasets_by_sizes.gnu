@@ -45,8 +45,8 @@ set xlabel 'Datasets'
 set ylabel 'Log(size in megabytes)'
 set term png
 set out '../output/OUTPUTFILE_log_datasets_size.png'
-plot '< sort -n -k 4 -t , ../data/INPUTFILE.csv' every::1 u 4 with points pt 7
+plot '< sort -n -k 4 -t , ../data/INPUTFILE.csv' every::1 u 4 with points pt 7 t "Datasets"
 set term svg
 set out '../output/OUTPUTFILE_log_datasets_size.svg'
-plot '< sort -n -k 4 -t , ../data/INPUTFILE.csv' every::1 u 4 with points pt 7
+plot '< sort -n -k 4 -t , ../data/INPUTFILE.csv' every::1 u 4 with points pt 7 t "Datasets"
 
